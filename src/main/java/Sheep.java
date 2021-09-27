@@ -1,7 +1,7 @@
-public class Goat implements Domesticatable, Tradable {
+public class Sheep implements Domesticatable, Tradable {
     private int milk;
 
-    public Goat() {
+    public Sheep() {
         this.milk = 5;
     }
 
