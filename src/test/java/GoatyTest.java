@@ -3,12 +3,12 @@ import org.junit.*;
 import static org.junit.Assert.*;
 
 
-public class GoatTest {
-    Goat g;
+public class GoatyTest {
+    Goaty g;
 
     @Before
     public void setUp() throws Exception {
-        g = new Goat();
+        g = new Goaty();
     }
 
     @Test(timeout = 50)

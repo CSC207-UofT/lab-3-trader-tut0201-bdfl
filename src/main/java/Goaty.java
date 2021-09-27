@@ -1,7 +1,7 @@
-public class Goat implements Drivable, Domesticatable, Tradable {
+public class Goaty implements Drivable, Domesticatable, Tradable {
     private int thing;
 
-    public Goat() { this.thing = 3; }
+    public Goaty() { this.thing = 3; }
 
     @Override
     public String sound() { return "Baa!"; }
