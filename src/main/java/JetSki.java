@@ -1,4 +1,5 @@
-public class JetSki implements Drivable, Tradable{
+public class JetSki implements Drivable, Tradable {
+
     private int maxSpeed;
     private int price;
 
@@ -10,6 +11,16 @@ public class JetSki implements Drivable, Tradable{
     @Override
     public int getMaxSpeed() {
         return this.maxSpeed;
+    }
+
+    @Override
+    public void upgradeSpeed() {
+        this.maxSpeed ++;
+    }
+
+    @Override
+    public void downgradeSpeed() {
+        this.maxSpeed--;
     }
 
     @Override
