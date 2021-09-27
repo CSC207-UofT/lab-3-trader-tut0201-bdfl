@@ -98,6 +98,9 @@ public class Trader {
                 new Horse(),
                 new Horse(),
                 new Goat(5)
+                new Goaty(),
+                new Goaty(),
+                new Goaty()
         );
 
         /* Below, we've created two Traders. Their money, inventory, and
